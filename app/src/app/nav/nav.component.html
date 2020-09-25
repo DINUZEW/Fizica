@@ -1,0 +1,13 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        
+        <li class="nav-item" *ngFor="let page of pages">
+          <a class="nav-link" href="{{page.url}}">{{page.name}}</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+      <a href="/login">  LOGIN </a>
+      </span>
+    </div>
+  </nav>
